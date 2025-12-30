@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     User([User Profile/Resume]) --> Profiler[Profiler Agent]
     Profiler --> State[(Global State: User Profile + Goals)]
@@ -17,3 +18,4 @@ graph TD
     
     Critic --> |Extracts Insights| State
     State -.-> |Updates Strategy| Planner
+```
