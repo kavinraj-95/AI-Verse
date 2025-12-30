@@ -1,7 +1,12 @@
 [project]
 name = "ai-verse"
 version = "0.1.0"
-description = "Add your description here"
+description = "A basic AI chatbot using strands and textual."
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "langchain",
+    "langchain-community",
+    "langchain-ollama",
+    "textual",
+]
